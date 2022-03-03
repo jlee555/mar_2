@@ -1,0 +1,101 @@
+*{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    width: 50%;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-color: #222;
+    color: #aaa;
+    transition: color 1s, background-color 1s;
+}
+
+
+h1 {
+    box-sizing: border-box;
+    padding: 1em 0 0.6em 0;
+    color: #ccc;
+    transition: color 1s;
+    font-size: 3em; height: 159px;
+}
+
+textarea{
+    border: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: auto;
+    resize: none;
+    width: 100%;
+    outline: none;
+    color: #fff;
+} 
+
+.pairings{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+
+h3{
+    padding: 10px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.course-col{
+    flex-basis: 31%;
+    border: 0.7px solid;
+    background: transparent;
+    border-radius: 10px;
+    border-color: rgb(214, 214, 214);
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    background: rgb(44, 44, 44);
+
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
